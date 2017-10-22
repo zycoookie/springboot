@@ -1,0 +1,9 @@
+app:
+    datasource:
+        url: jdbc:mysql://120.26.51.19:3306/orimuse_prd
+        username: root
+        password: orimuse2014
+        pool-size: 30
+        driver-class-name: com.mysql.jdbc.Driver
+logging:
+  config: classpath:logback-boot.xml
